@@ -61,3 +61,10 @@ Feature: Radio Nav Drawers
     When I select Categories in the radio nav
     And I select the all categories link
     Then I am on the all categories page
+    
+    @experiment
+    Scenario: all categories on same page
+    Given I am on page
+    When I select data page
+    Then I am on the all categories page
+    
