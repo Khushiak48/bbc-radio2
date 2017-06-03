@@ -16,10 +16,10 @@ Feature: Radio Nav Drawers
     Then the <section> drawer is closed
 
     Examples: of sections
-      | section    |
-      | Stations   |
-      | Categories |
-      | Schedules  |
+      | Stations234555 |
+      | Stations234    |
+      | Categories     |
+      | Schedules      |
 
   @todo
   Scenario Outline: Opening a drawer should close the other drawers
@@ -61,10 +61,9 @@ Feature: Radio Nav Drawers
     When I select Categories in the radio nav
     And I select the all categories link
     Then I am on the all categories page
-    
-    @experiment
-    Scenario: all categories on same page
+
+  @experiment
+  Scenario: all categories on same page
     Given I am on page
     When I select data page
     Then I am on the all categories page
-    
