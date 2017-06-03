@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.bbc.radio.functional.test.RunBBCRadioFunctionalTest" time="140.903" tests="39" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Workspace\selenium-sts\bbc-radio"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Workspace\selenium-sts\bbc-radio"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Khushboo\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\Software\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_121\bin;D:\Software\apache-maven-3.3.9\bin;D:\Workspace\GeckoDriver;C:\Users\Khushboo\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Khushboo"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Khushboo"/>
+    <property name="java.class.path" value="D:\Software\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install site"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Software\apache-maven-3.3.9\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given I can see the radio nav" classname="| Stations |" time="0.002"/>
+  <testcase name="Given I can see the radio nav" classname="| Stations |" time="0"/>
+  <testcase name="When I select Stations in the radio nav" classname="| Stations |" time="0"/>
+  <testcase name="When I select Stations in the radio nav" classname="| Stations |" time="0"/>
+  <testcase name="Then the Stations drawer is open" classname="| Stations |" time="0"/>
+  <testcase name="When I select Stations in the radio nav again" classname="| Stations |" time="0"/>
+  <testcase name="Then the Stations drawer is closed" classname="| Stations |" time="0"/>
+  <testcase name="| Stations |" classname="| Stations |" time="0.001"/>
+  <testcase name="| Stations |" classname="| Stations |" time="0"/>
+  <testcase name="Given I can see the radio nav" classname="| Categories |" time="0"/>
+  <testcase name="Given I can see the radio nav" classname="| Categories |" time="0"/>
+  <testcase name="When I select Categories in the radio nav" classname="| Categories |" time="0"/>
+  <testcase name="When I select Categories in the radio nav" classname="| Categories |" time="0"/>
+  <testcase name="Then the Categories drawer is open" classname="| Categories |" time="0"/>
+  <testcase name="When I select Categories in the radio nav again" classname="| Categories |" time="0"/>
+  <testcase name="Then the Categories drawer is closed" classname="| Categories |" time="0"/>
+  <testcase name="| Categories |" classname="| Categories |" time="0"/>
+  <testcase name="| Categories |" classname="| Categories |" time="0.009">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+</failure>
+  </testcase>
+  <testcase name="Given I can see the radio nav" classname="| Schedules |" time="0"/>
+  <testcase name="Given I can see the radio nav" classname="| Schedules |" time="0"/>
+  <testcase name="When I select Schedules in the radio nav" classname="| Schedules |" time="0"/>
+  <testcase name="When I select Schedules in the radio nav" classname="| Schedules |" time="0"/>
+  <testcase name="Then the Schedules drawer is open" classname="| Schedules |" time="0"/>
+  <testcase name="When I select Schedules in the radio nav again" classname="| Schedules |" time="0"/>
+  <testcase name="Then the Schedules drawer is closed" classname="| Schedules |" time="0"/>
+  <testcase name="| Schedules |" classname="| Schedules |" time="0"/>
+  <testcase name="| Schedules |" classname="| Schedules |" time="0">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+</failure>
+  </testcase>
+  <testcase name="Then the Stations drawer is open and the other drawers are closed" classname="| Stations |" time="0"/>
+  <testcase name="Then the Categories drawer is open and the other drawers are closed" classname="| Categories |" time="0.009">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+</failure>
+    <system-out><![CDATA[Section Station is open
+]]></system-out>
+  </testcase>
+  <testcase name="Then the Schedules drawer is open and the other drawers are closed" classname="| Schedules |" time="0">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+</failure>
+    <system-out><![CDATA[Section Station is open
+]]></system-out>
+  </testcase>
+  <testcase name="Given I can see the radio nav" classname="Scenario: Selecting categories displays categories links" time="0"/>
+  <testcase name="When I select Categories in the radio nav" classname="Scenario: Selecting categories displays categories links" time="0"/>
+  <testcase name="Then I can see the following categories" classname="Scenario: Selecting categories displays categories links" time="0"/>
+  <testcase name="Scenario: Selecting categories displays categories links" classname="Scenario: Selecting categories displays categories links" time="0"/>
+  <testcase name="Given I can see the radio nav" classname="Scenario: Selecting all categories navigates to all categories page" time="0"/>
+  <testcase name="When I select Categories in the radio nav" classname="Scenario: Selecting all categories navigates to all categories page" time="0"/>
+  <testcase name="And I select the all categories link" classname="Scenario: Selecting all categories navigates to all categories page" time="0"/>
+  <testcase name="Then I am on the all categories page" classname="Scenario: Selecting all categories navigates to all categories page" time="0"/>
+  <testcase name="Scenario: Selecting all categories navigates to all categories page" classname="Scenario: Selecting all categories navigates to all categories page" time="0"/>
+</testsuite>
